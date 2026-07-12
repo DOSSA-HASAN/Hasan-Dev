@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #0a0c10;
+  --color-surface: #12151b;
+  --color-surface-2: #1a1e26;
+
+  --color-border: #242933;
+
+  --color-text: #edeff2;
+  --color-muted: #8a93a3;
+  --color-faint: #565f6f;
+
+  --color-purple: #a855f7;
+  --color-purple-dim: #4c2172;
+
+  --color-teal: #46d9c4;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  overflow-x: hidden;
+}
+
+.grid-mask {
+  mask-image: radial-gradient(
+    ellipse 80% 60% at 50% 0%,
+    black 40%,
+    transparent 100%
+  );
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: .4;
+    transform: scale(1.4);
+  }
+}
+
+.animate-pulse-dot {
+  animation: pulse 1.8s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.cursor {
+  animation: blink 1s step-end infinite;
+}
