@@ -63,7 +63,7 @@ export default async function ProjectDetailPage({ params }: PageProps) {
                             priority
                             /* REMOVED: object-cover */
                             /* ADDED: object-contain to guarantee the entire dashboard window is visible */
-                            className="object-contain object-center opacity-85 group-hover:opacity-100 transition-opacity duration-300"
+                            className="object-contain object-center"
                             sizes="(max-w-1200px) 100vw, 1180px"
                         />
                     </div>
@@ -87,7 +87,7 @@ export default async function ProjectDetailPage({ params }: PageProps) {
                                     src={img.src}
                                     alt={img.label}
                                     fill
-                                    className="object-contain object-center opacity-40 group-hover:opacity-80 transition-opacity duration-300"
+                                    className="object-contain object-center"
                                     sizes="(max-w-768px) 100vw, 33vw"
                                 />
 
