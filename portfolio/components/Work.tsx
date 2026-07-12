@@ -94,12 +94,12 @@ export default function Work() {
                             <div className="pt-4 border-t border-border/60">
                                 <Link
                                     href={`/work/${project.id}`}
-                                    className="inline-flex items-center gap-2 font-mono text-xs text-text border border-border bg-surface-2 px-4 py-2.5 rounded hover:text-purple hover:border-purple transition-all"
+                                    className="inline-flex items-center gap-2 font-mono text-xs text-text border border-border px-4 py-2.5 rounded hover:text-purple hover:border-purple hover:bg-surface transition-all bg-purple"
                                 >
-                                    <span>EXPLORE_SYSTEM_DETAILS()</span>
-                                    <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                                    <span className="">EXPLORE_SYSTEM_DETAILS()</span>
+                                    {/* <svg className="w-3.5 h-3.5" fill="#fff" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
                                         <path strokeLinecap="round" strokeLinejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                    </svg>
+                                    </svg> */}
                                 </Link>
                             </div>
 
