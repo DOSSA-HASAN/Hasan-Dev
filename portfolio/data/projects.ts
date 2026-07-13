@@ -45,6 +45,7 @@ export const projectsData: Record<string, Project> = {
       "Flutter",
       "Dart",
     ],
+    githubLink: "https://github.com/DOSSA-HASAN/PesaFlow.git",
     features: [
       "STK Push payment initiation with status tracking end-to-end",
       "Business-to-Business (B2B) transfer support",
