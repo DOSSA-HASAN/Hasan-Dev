@@ -59,11 +59,23 @@ export const projectsData: Record<string, Project> = {
       { label: "Merchant Login Screen", src: "/pesaflow-login.jpeg" },
       {
         label: "Initiaite STK Push",
-        src: "/pesaflow-stk-push.jpeg",
+        src: "/pesaflow-stk-prompt-screen.png",
       },
       {
-        label: "Initiate Business Buy-Goods Payment",
-        src: "/pesaflow-b2buygoods.jpeg",
+        label: "Initiate Business to Buy-Goods Payment",
+        src: "/pesaflow-b2bg-screen.png",
+      },
+      {
+        label: "Initiate Business to Paybill Payment",
+        src: "/pesaflow-b2pb-screen.png",
+      },
+      {
+        label: "Initiate Business to Pochi Payment",
+        src: "/pesaflow-b2pochi-screen.png",
+      },
+      {
+        label: "Initiate Business to Customer Payment",
+        src: "/pesaflow-b2c-screen.png",
       },
     ],
     setupCommands: [
